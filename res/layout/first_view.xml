@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#87CEFA">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#000"
+		android:text="first_view">
+	</TextView>
+
+	<Button
+		android:id="@+id/action_btn"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="40dp"
+		android:textColor="#000"
+		android:text="Action">
+	</Button>
+
+</LinearLayout>
