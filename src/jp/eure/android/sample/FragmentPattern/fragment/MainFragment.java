@@ -93,6 +93,6 @@ public class MainFragment extends Fragment {
 
 	public void setPage(int position) {
 		DLog.v("setPage:"+position);
-		mMainPager.setCurrentItem(position, false); // not working...why?
+		mMainPager.setCurrentItem(position, true);
 	}
 }

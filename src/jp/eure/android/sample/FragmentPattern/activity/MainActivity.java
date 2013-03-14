@@ -22,16 +22,11 @@ public class MainActivity extends BaseActivity implements MainFragment.OnCurrent
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_view);
-
-		mFragmentManger = getSupportFragmentManager();
-		mFragmentTrasaction = mFragmentManger.beginTransaction();
-		mMainFragment = MainFragment.newInstance();
-		mFragmentTrasaction.addToBackStack(null);
-		mFragmentTrasaction.replace(R.id.main_fragment, mMainFragment).commit();
 	}
 
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
+		mMainFragment = (MainFragment)getSupportFragmentManager().findFragmentById(R.id.main_fragment);
 		mMainFragment.setPage(itemPosition);
 		return super.onNavigationItemSelected(itemPosition, itemId);
 	}
