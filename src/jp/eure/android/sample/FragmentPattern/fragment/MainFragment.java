@@ -52,7 +52,7 @@ public class MainFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		super.onCreateView(inflater, container, savedInstanceState);
-
+		DLog.d("MainFragment onCreateView");
 		mView = (View)inflater.inflate(R.layout.main_pager_view, container, false);
 		mMainPager = (ViewPager)mView.findViewById(R.id.main_pager);
 		mMainPagerAdapter = new MainPagerAdapter(getActivity().getSupportFragmentManager()) {

@@ -19,20 +19,11 @@ import jp.eure.android.sample.FragmentPattern.util.DLog;
  */
 public class MainPagerAdapter extends FragmentPagerAdapter {
 
-	private FirstFragment mFirstFragment;
-	private SecondFragment mSecondFragment;
-	private ThirdFragment mThirdFragment;
-	private FourthFragment mFourthFragment;
-
-
 	public void OnActionBtnClickListener(){};
 
 	public MainPagerAdapter(FragmentManager fm) {
 		super(fm);
-	}
-
-	private boolean isNull(Fragment f) {
-		return f==null?true:false;
+		DLog.d("MainPagerAdapter create");
 	}
 
 	@Override
@@ -44,34 +35,12 @@ public class MainPagerAdapter extends FragmentPagerAdapter {
 	public Fragment getItem(int position) {
 
 		switch (position) {
-			case 0:
-				if (isNull(mFirstFragment)) {
-					mFirstFragment = new FirstFragment() {
-						@Override
-						public void onActionBtnClickHandler() {
-							super.onActionBtnClickHandler();
-							OnActionBtnClickListener();
-						}
-					};
-				}
-				return mFirstFragment;
-			case 1:
-				if (isNull(mSecondFragment)) {
-					mSecondFragment = SecondFragment.newInstance();
-				}
-				return mSecondFragment;
-			case 2:
-				if (isNull(mThirdFragment)) {
-					mThirdFragment = ThirdFragment.newInstance();
-				}
-				return mThirdFragment;
-			case 3:
-				if (isNull(mFourthFragment)) {
-					mFourthFragment = FourthFragment.newInstance();
-				}
-				return mFourthFragment;
-			default:
-				return null;
+		case 0: return FirstFragment.newInstance();
+		case 1: return SecondFragment.newInstance();
+		case 2: return ThirdFragment.newInstance();
+		case 3: return FourthFragment.newInstance();
+		default: return null;
+
 		}
 	}
 
