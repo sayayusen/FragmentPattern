@@ -3,6 +3,8 @@ package jp.eure.android.sample.FragmentPattern.activity;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.widget.ArrayAdapter;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -20,10 +22,12 @@ import jp.eure.android.sample.FragmentPattern.R;
  */
 public class BaseActivity extends SherlockFragmentActivity implements ActionBar.OnNavigationListener {
 
-	protected static ActionBar mActionBar;
-	protected static Context mContext;
-	protected static ArrayAdapter<CharSequence> mListAdapter;
-	protected static MenuInflater mMenuInflater;
+	protected ActionBar mActionBar;
+	protected Context mContext;
+	protected ArrayAdapter<CharSequence> mListAdapter;
+	protected MenuInflater mMenuInflater;
+	protected FragmentManager mFragmentManger;
+	protected FragmentTransaction mFragmentTrasaction;
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -43,6 +47,13 @@ public class BaseActivity extends SherlockFragmentActivity implements ActionBar.
 		mActionBar.setListNavigationCallbacks(mListAdapter, this);
 	}
 
+	public void changeActionMode(boolean isBack) {
+		mActionBar = getSupportActionBar();
+		mActionBar.setNavigationMode(isBack? ActionBar.NAVIGATION_MODE_STANDARD: ActionBar.NAVIGATION_MODE_LIST);
+		mActionBar.setDisplayShowHomeEnabled(isBack);
+		mActionBar.setDisplayHomeAsUpEnabled(isBack);
+		mActionBar.setHomeButtonEnabled(isBack);
+	}
 
 	@Override
 	public void onConfigurationChanged(Configuration newConfig) {
@@ -64,6 +75,12 @@ public class BaseActivity extends SherlockFragmentActivity implements ActionBar.
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				getSupportFragmentManager().popBackStack();
+				changeActionMode(false);
+				break;
+		}
 		return super.onOptionsItemSelected(item);
 	}
 }

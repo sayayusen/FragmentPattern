@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+id/main_fragment"
+	android:id="@+id/another_fragment"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="#ffff0000" />
+	android:background="#fff000" />

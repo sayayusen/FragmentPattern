@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import jp.eure.android.sample.FragmentPattern.R;
+import jp.eure.android.sample.FragmentPattern.fragment.AnotherFragment;
 import jp.eure.android.sample.FragmentPattern.fragment.MainFragment;
 import jp.eure.android.sample.FragmentPattern.util.DLog;
 
@@ -15,25 +16,34 @@ import jp.eure.android.sample.FragmentPattern.util.DLog;
 public class MainActivity extends BaseActivity implements
 	MainFragment.OnCurrentPageChangeListener {
 
-	private MainFragment mMainFragment;
-	private FragmentManager mFragmentManger;
-	private FragmentTransaction mFragmentTrasaction;
+	private static MainFragment mMainFragment;
+	private AnotherFragment mAnotherFragment;
 
 	public void onCreate(Bundle savedInstanceState) {
-	super.onCreate(savedInstanceState);
-	setContentView(R.layout.main_view);
-	DLog.d("MainActivity onCreate");
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.main_view);
+		DLog.d("MainActivity onCreate");
 
+		if (savedInstanceState == null) {
+			mFragmentManger = getSupportFragmentManager();
+			mFragmentTrasaction = mFragmentManger.beginTransaction();
+			mMainFragment = MainFragment.newInstance();
+			mFragmentTrasaction.replace(R.id.main_fragment, mMainFragment, "main");
+			mFragmentTrasaction.addToBackStack(null);
+			mFragmentTrasaction.commit();
+		}
+	}
 
-	if (savedInstanceState == null) {
+	public void openAnotherFragment() {
+		DLog.v("openAnotherFragment");
 		mFragmentManger = getSupportFragmentManager();
 		mFragmentTrasaction = mFragmentManger.beginTransaction();
-		mMainFragment = MainFragment.newInstance();
-		mFragmentTrasaction.replace(R.id.main_fragment, mMainFragment);
+		mAnotherFragment = AnotherFragment.newInstance();
+		mFragmentTrasaction.add(R.id.main_fragment, mAnotherFragment);
 		mFragmentTrasaction.addToBackStack(null);
 		mFragmentTrasaction.commit();
+		changeActionMode(true);
 	}
-}
 
 	@Override
 	public void onConfigurationChanged(Configuration newConfig) {

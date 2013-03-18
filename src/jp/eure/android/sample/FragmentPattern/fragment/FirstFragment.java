@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import jp.eure.android.sample.FragmentPattern.R;
+import jp.eure.android.sample.FragmentPattern.activity.MainActivity;
 
 /**
  * Created with IntelliJ IDEA.
@@ -19,6 +20,7 @@ import jp.eure.android.sample.FragmentPattern.R;
 
 public class FirstFragment extends Fragment {
 
+	private MainActivity mMainActivity;
 	private Button mActionBtn;
 
 
@@ -32,6 +34,7 @@ public class FirstFragment extends Fragment {
 	@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
+		mMainActivity = (MainActivity)activity;
 	}
 
 	@Override
@@ -48,7 +51,7 @@ public class FirstFragment extends Fragment {
 		mActionBtn.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				onActionBtnClickHandler();
+				mMainActivity.openAnotherFragment();
 			}
 		});
 		return view;

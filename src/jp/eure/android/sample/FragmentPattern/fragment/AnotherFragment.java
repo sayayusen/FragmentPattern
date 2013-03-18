@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import jp.eure.android.sample.FragmentPattern.R;
 
 import java.lang.Override;
 
@@ -17,6 +18,11 @@ import java.lang.Override;
  */
 public class AnotherFragment extends Fragment {
 
+	public static AnotherFragment newInstance() {
+		final AnotherFragment f = new AnotherFragment();
+		return f;
+	}
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
@@ -24,6 +30,9 @@ public class AnotherFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return super.onCreateView(inflater, container, savedInstanceState);    //To change body of overridden methods use File | Settings | File Templates.
+		super.onCreateView(inflater, container, savedInstanceState);
+
+		View view = (View)inflater.inflate(R.layout.another_view, container, false);
+		return view;
 	}
 }

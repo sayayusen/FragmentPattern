@@ -30,6 +30,7 @@ public class TopActivity extends BaseActivity {
 			public void onClick(View v) {
 				Intent intent = new Intent(TopActivity.this, MainActivity.class);
 				startActivity(intent);
+				finish();
 			}
 		});
 	}
