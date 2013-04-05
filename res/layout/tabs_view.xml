@@ -35,11 +35,47 @@
 	</LinearLayout>
 
 	<FrameLayout
-		android:id="@+id/detail_fragment"
+		android:id="@+id/tab1_view"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_weight="1"
 		android:background="#fff">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="tab1"
+			android:layout_gravity="center">
+		</TextView>
 	</FrameLayout>
+
+	<FrameLayout
+		android:id="@+id/tab2_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:visibility="gone"
+		android:background="#fff">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="tab2"
+			android:layout_gravity="center">
+		</TextView>
+	</FrameLayout>
+	<FrameLayout
+		android:id="@+id/tab3_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:visibility="gone"
+		android:background="#fff">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="tab3"
+			android:layout_gravity="center">
+		</TextView>
+	</FrameLayout>
+
 
 </LinearLayout>

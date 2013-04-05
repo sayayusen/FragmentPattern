@@ -4,12 +4,11 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import jp.eure.android.sample.FragmentPattern.R;
 import jp.eure.android.sample.FragmentPattern.activity.MainActivity;
 import jp.eure.android.sample.FragmentPattern.util.DLog;
@@ -23,13 +22,15 @@ import jp.eure.android.sample.FragmentPattern.util.DLog;
  */
 public class TabsFragment extends Fragment {
 
-	private MainActivity mMainActivity;
-
 	private View mView;
 	private Button[] mTabs;
 	private Button mTab1;
 	private Button mTab2;
 	private Button mTab3;
+	private FrameLayout[] mFrameLayouts;
+	private FrameLayout mTab1View;
+	private FrameLayout mTab2View;
+	private FrameLayout mTab3View;
 
 	private static final int TAB1 = 0;
 	private static final int TAB2 = 1;
@@ -43,8 +44,6 @@ public class TabsFragment extends Fragment {
 	@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
-
-		mMainActivity = (MainActivity)activity;
 	}
 
 	@Override
@@ -52,6 +51,7 @@ public class TabsFragment extends Fragment {
 		super.onCreate(savedInstanceState);
 
 		mTabs = new Button[3];
+		mFrameLayouts = new FrameLayout[3];
 	}
 
 	@Override
@@ -68,11 +68,19 @@ public class TabsFragment extends Fragment {
 		mTabs[1] = mTab2;
 		mTabs[2] = mTab3;
 
+		mTab1View = (FrameLayout)mView.findViewById(R.id.tab1_view);
+		mTab2View = (FrameLayout)mView.findViewById(R.id.tab2_view);
+		mTab3View = (FrameLayout)mView.findViewById(R.id.tab3_view);
+
+		mFrameLayouts[0] = mTab1View;
+		mFrameLayouts[1] = mTab2View;
+		mFrameLayouts[2] = mTab3View;
+
 		mTab1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				DLog.v("detail tab1 clicked!");
-				setFragment(TAB1);
+				replaceView(TAB1);
 			}
 		});
 
@@ -80,7 +88,7 @@ public class TabsFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				DLog.v("detail tab2 clicked!");
-				setFragment(TAB2);
+				replaceView(TAB2);
 			}
 		});
 
@@ -88,12 +96,9 @@ public class TabsFragment extends Fragment {
 			@Override
 			public void onClick(View v) {
 				DLog.v("detail tab3 clicked!");
-				setFragment(TAB3);
+				replaceView(TAB3);
 			}
 		});
-
-		// DefaultFragment
-		setFragment(TAB1);
 
 		return mView;
 	}
@@ -105,39 +110,19 @@ public class TabsFragment extends Fragment {
 
 		for (int i=0; i<mTabs.length; i++) {
 			if (i != tabId) {
-				DLog.v("NO"+tabId);
 				selectedTab.setBackgroundColor(Color.GRAY);
 			} else {
-				DLog.v("SELECT"+tabId);
 				selectedTab.setBackgroundColor(Color.GREEN);
 			}
 		}
 	}
 
-	// Setting Fragment
-	private void setFragment(int fragmentId) {
+	// Replace View
+	private void replaceView(int index) {
 
-		FragmentManager fragmentManager = mMainActivity.getSupportFragmentManager();
-		FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-		Fragment fragment = null;
-
-		switch (fragmentId) {
-			case TAB1:
-				Tab1Fragment tab1Fragment = Tab1Fragment.newInstance();
-				fragment = tab1Fragment;
-				break;
-			case TAB2:
-				Tab2Fragment tab2Fragment = Tab2Fragment.newInstance();
-				fragment = tab2Fragment;
-				break;
-			case TAB3:
-				Tab3Fragment tab3Fragment = Tab3Fragment.newInstance();
-				fragment = tab3Fragment;
-				break;
+		for (int i=0; i<mFrameLayouts.length; i++) {
+			mFrameLayouts[i].setVisibility(View.GONE);
 		}
-		//setSelectButton(fragmentId);
-		fragmentTransaction.replace(R.id.detail_fragment, fragment);
-		//fragmentTransaction.addToBackStack(null);
-		fragmentTransaction.commit();
+		mFrameLayouts[index].setVisibility(View.VISIBLE);
 	}
 }

@@ -1,5 +1,6 @@
 package jp.eure.android.sample.FragmentPattern.fragment;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -36,6 +37,11 @@ public class AnotherFragment extends Fragment {
 	public static AnotherFragment newInstance() {
 		final AnotherFragment f = new AnotherFragment();
 		return f;
+	}
+
+	@Override
+	public void onAttach(Activity activity) {
+		super.onAttach(activity);
 	}
 
 	@Override
