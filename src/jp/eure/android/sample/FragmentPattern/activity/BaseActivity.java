@@ -5,6 +5,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.view.KeyEvent;
 import android.widget.ArrayAdapter;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
@@ -82,5 +83,15 @@ public class BaseActivity extends SherlockFragmentActivity implements ActionBar.
 				break;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public boolean dispatchKeyEvent(KeyEvent event) {
+		switch (event.getKeyCode()) {
+			case KeyEvent.KEYCODE_BACK:
+				changeActionMode(false);
+				break;
+		}
+		return super.dispatchKeyEvent(event);
 	}
 }

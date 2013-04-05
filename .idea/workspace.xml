@@ -37,15 +37,12 @@
     <list default="true" id="5cf8560d-3d1f-49c5-860c-607164b8bbca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/AnotherFragment.java" afterPath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/AnotherFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FirstFragment.java" afterPath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FirstFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/MainActivity.java" afterPath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/TopActivity.java" afterPath="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/TopActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_view.xml" afterPath="$PROJECT_DIR$/res/layout/main_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/another_view.xml" afterPath="$PROJECT_DIR$/res/layout/another_view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FragmentPattern.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363576547308" ignored="false" />
+    <file path="/Dummy.txt" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365158435399" ignored="false" />
     <file path="/fragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363229561355" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363338430302" ignored="false" />
     <file path="/FirstFragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363576799308" ignored="false" />
@@ -62,14 +59,24 @@
     <file path="/second_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363239798861" ignored="false" />
     <file path="/third_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363239809708" ignored="false" />
     <file path="/fourth_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363240098578" ignored="false" />
-    <file path="/BaseActivity.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363585758475" ignored="false" />
+    <file path="/BaseActivity.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365157758794" ignored="false" />
     <file path="/array.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363233701148" ignored="false" />
     <file path="/menu.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363239366223" ignored="false" />
     <file path="/MainPagerAdapter.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363245182397" ignored="false" />
     <file path="/DLog.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363235423194" ignored="false" />
     <file path="/Constants.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363235440120" ignored="false" />
-    <file path="/AnotherFragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363578557569" ignored="false" />
-    <file path="/another_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1363576606956" ignored="false" />
+    <file path="/AnotherFragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365158202416" ignored="false" />
+    <file path="/another_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365157132166" ignored="false" />
+    <file path="/DetailFragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365162411938" ignored="false" />
+    <file path="/StatePagerAdapter.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365156283308" ignored="false" />
+    <file path="/detail_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365161783942" ignored="false" />
+    <file path="/Tab3Fragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365158800283" ignored="false" />
+    <file path="/Tab2Fragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365158780540" ignored="false" />
+    <file path="/Tab1Fragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365159710451" ignored="false" />
+    <file path="/tab3_view.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365158531061" ignored="false" />
+    <file path="/TabsFragment.java" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365160636939" ignored="false" />
+    <file path="/default_button.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365161370133" ignored="false" />
+    <file path="/colors.xml" changelist="5cf8560d-3d1f-49c5-860c-607164b8bbca" time="1365160943519" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,94 +135,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FirstFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FirstFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="51" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1356#1480#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/SecondFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="8" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FourthFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FourthFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="28" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="21" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.26519337">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/TopActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="another_view.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/another_view.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.61538464">
+            <state line="25" column="34" selection-start="825" selection-end="825" vertical-scroll-proportion="-2.1538463">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first_view.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/first_view.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="TabsFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/TabsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="-7.076923">
+            <state line="127" column="8" selection-start="3179" selection-end="3179" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1888#2030#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2061#2203#0" expanded="true" />
+                <element signature="e#2198#2199#0" expanded="true" />
+                <element signature="e#2234#2376#0" expanded="true" />
+                <element signature="e#2371#2372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default_button.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable/default_button.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_view.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main_view.xml">
+      <file leaf-file-name="Tab1Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab1Fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="4" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab1_view.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/tab1_view.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="-1.5384616">
+            <state line="4" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.2307693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab2_view.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/tab2_view.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="16" selection-start="372" selection-end="372" vertical-scroll-proportion="-4.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tab2Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab2Fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="21" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tab3Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab3Fragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="38" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabs_view.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/tabs_view.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="36" selection-start="294" selection-end="294" vertical-scroll-proportion="0.42985076">
               <folding />
             </state>
           </provider>
@@ -239,22 +260,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/third_view.xml" />
-        <option value="$PROJECT_DIR$/res/layout/second_view.xml" />
-        <option value="$PROJECT_DIR$/res/layout/first_view.xml" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/adapter/MainPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/MainFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/SecondFragment.java" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/ThirdFragment.java" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FourthFragment.java" />
-        <option value="$PROJECT_DIR$/res/layout/main_view.xml" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FirstFragment.java" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/AnotherFragment.java" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/adapter/StatePagerAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/another_view.xml" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/TopActivity.java" />
-        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/AnotherFragment.java" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/DetailFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/tab3_view.xml" />
+        <option value="$PROJECT_DIR$/res/layout/tab2_view.xml" />
+        <option value="$PROJECT_DIR$/res/layout/tab1_view.xml" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab1Fragment.java" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab2Fragment.java" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab3Fragment.java" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/default_button.xml" />
+        <option value="$PROJECT_DIR$/res/layout/detail_view.xml" />
+        <option value="$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/TabsFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/tabs_view.xml" />
       </list>
     </option>
   </component>
@@ -288,6 +309,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -403,6 +425,24 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FragmentPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FragmentPattern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -424,7 +464,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -440,16 +479,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gunosy/Gunosy" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="100015a7290d" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="HVGA_320x480" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.FragmentPattern">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -483,19 +522,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -521,6 +547,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -607,12 +646,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20106222" sideWeight="0.6164179" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2003035" sideWeight="0.65373135" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -620,13 +659,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3835821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34626865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18409091" sideWeight="0.6164179" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32537314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19499241" sideWeight="0.65373135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32453415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67014927" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67014927" order="2" side_tool="false" content_ui="tabs" />
@@ -696,94 +735,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/third_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+        <state line="30" column="28" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/second_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/adapter/MainPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/ThirdFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FourthFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/first_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="-7.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/FirstFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="51" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1356#1480#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/SecondFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="8" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="21" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.9177378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/adapter/StatePagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/AnotherFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="732" selection-end="732" vertical-scroll-proportion="0.22063038">
-          <folding />
+        <state line="44" column="39" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2230#2353#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
+            <element signature="e#2386#2509#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_view.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/tab3_view.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="-1.5384616">
+        <state line="13" column="16" selection-start="372" selection-end="372" vertical-scroll-proportion="-4.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab2_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="372" selection-end="372" vertical-scroll-proportion="-4.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab1Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab2Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/Tab3Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="38" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="152" selection-end="152" vertical-scroll-proportion="0.16842106">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/tab1_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.2307693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/default_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.2">
           <folding />
         </state>
       </provider>
@@ -793,35 +853,32 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.61538464">
+        <state line="25" column="34" selection-start="825" selection-end="825" vertical-scroll-proportion="-2.1538463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/TopActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/TabsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="127" column="8" selection-start="3179" selection-end="3179" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1888#2030#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2061#2203#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2234#2376#0" expanded="true" />
+            <element signature="e#2371#2372#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/fragment/MainFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="52" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.13259669">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/layout/tabs_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="28" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jp/eure/android/sample/FragmentPattern/activity/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="21" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.26519337">
+        <state line="9" column="36" selection-start="294" selection-end="294" vertical-scroll-proportion="0.42985076">
           <folding />
         </state>
       </provider>
